@@ -1,0 +1,22 @@
+{
+  "name": "linux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "linux": "bin/linux.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rclark/linux.git"
+  },
+  "author": "Ryan Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rclark/linux/issues"
+  },
+  "homepage": "https://github.com/rclark/linux#readme"
+}
