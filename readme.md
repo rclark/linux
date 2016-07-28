@@ -4,7 +4,7 @@ Easy linux-on-osx via Docker.
 
 ## Prerequisite
 
-You need to be running Docker. [Installation instructions are here](https://docs.docker.com/engine/installation/).
+You need to be running Docker. [Installation instructions are here](https://docs.docker.com/engine/installation/). You also need GNU readlink installed. I suggest `brew install coreutils`.
 
 ## Install and run
 
