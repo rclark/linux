@@ -4,7 +4,7 @@ Easy linux-on-osx via Docker.
 
 ## Prerequisite
 
-You need to be running Docker. [Installation instructions are here](https://docs.docker.com/engine/installation/). You also need GNU readlink installed. I suggest `brew install coreutils`.
+You need to be running Docker. [Installation instructions are here](https://docs.docker.com/docker-for-mac/). You also need GNU readlink installed. I suggest `brew install coreutils`.
 
 ## Install and run
 
@@ -22,3 +22,4 @@ The first build will take a while. After the first build, there's no need to add
 - Passes AWS credentials from host environment onto the linux container
 - Installs git, curl, vim, zip, python, node.js, and awscli
 - Very easy to adjust your own environment by changing the included Dockerfile and running `linux` again
+- `docker-cleaner` CLI command that helps clean up dead images and containers
