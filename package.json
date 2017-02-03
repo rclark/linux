@@ -1,14 +1,13 @@
 {
   "name": "linux",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "linux": "bin/linux.sh",
-    "docker-cleaner": "bin/cleanup.sh"
+    "linux": "bin/linux.sh"
   },
   "repository": {
     "type": "git",

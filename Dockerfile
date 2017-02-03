@@ -1,8 +1,12 @@
-from ubuntu
+FROM ubuntu
+
+ENV NVM_DIR="/usr/local/nvm"
 
 RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install git curl vim zip python-pip
 RUN pip install awscli
-RUN curl https://s3.amazonaws.com/mapbox/apps/install-node/v2.0.0/run | NV=4.4.2 NP=linux-x64 OD=/usr/local sh
+RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+
+RUN [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm install 6
 
 WORKDIR /usr/local/src
