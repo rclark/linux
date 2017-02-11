@@ -1,3 +1,5 @@
+## v3.0.0
+
 ## v2.0.0
 
 - sets up `nvm` and starts with node 6.x as the default version
